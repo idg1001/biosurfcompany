@@ -1,0 +1,83 @@
+body {
+
+background: lightblue;
+}
+h1 {
+font-size: 50px;
+color: dodgerblue;
+font-family: Copperplate, Papyrus, Fantasy;
+}
+h2 {
+font-size: 20px;
+color: darkblue
+}
+Header {
+text-align: center;
+}
+nav {
+display:inline;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #0066FF;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+section {
+float: right;
+width: 500px;
+min-height: 800px;
+padding-right: 20px;
+padding-left: 20px;
+text-align: justify
+}
+aside {
+
+float: left;
+width: 500px;
+min-height: 800px;
+padding-right: 20px;
+padding-left: 20px;
+text-align: justify
+border-left: 10px solid #0066FF;
+
+}
+#SmithBros {
+float: left
+margin: 10px;
+width: 350px;
+height: 250px;
+padding-top: 20px;
+}
+#Surferguy {
+float: right;
+margin: 10px;
+width: 350px;
+height: 250px;
+padding-top: 20px;
+}
+#twitter {
+width: 75px;
+height: 75px;
+}
+footer {
+clear: both;
+width: 900px;
+height: 100px;
+}
